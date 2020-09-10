@@ -1,5 +1,5 @@
 {
-    "name": "symfony/dependency-injection",
+    "name": "reziliodev/dependency-injection",
     "type": "library",
     "description": "Symfony DependencyInjection Component",
     "keywords": [],
