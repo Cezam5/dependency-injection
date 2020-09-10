@@ -1,7 +1,7 @@
 {
     "name": "reziliodev/dependency-injection",
     "type": "library",
-    "description": "A fork of symfony/dependency-injection 4.4 that takes care of Compile Error: Cannot declare class ContainerId{ID}\srcApp_KernelTestDebugContainer, because the name is already in use",
+    "description": "A fork of symfony/dependency-injection 4.4 that takes care of Compile Error Cannot declare class ContainerId...KernelTestDebugContainer, because the name is already in use",
     "version": "0.1.0",
     "author": {
         "name": "Marc C. Henri"
