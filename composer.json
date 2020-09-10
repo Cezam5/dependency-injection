@@ -1,36 +1,15 @@
 {
     "name": "reziliodev/dependency-injection",
     "type": "library",
-    "description": "Symfony DependencyInjection Component",
-    "keywords": [],
-    "homepage": "https://symfony.com",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Fabien Potencier",
-            "email": "fabien@symfony.com"
-        },
-        {
-            "name": "Symfony Community",
-            "homepage": "https://symfony.com/contributors"
-        }
-    ],
-    "require": {
-        "php": ">=7.1.3",
-        "psr/container": "^1.0",
-        "symfony/service-contracts": "^1.1.6|^2"
+    "description": "A fork of symfony/dependency-injection 4.4 that takes care of Compile Error: Cannot declare class ContainerId{ID}\srcApp_KernelTestDebugContainer, because the name is already in use",
+    "version": "0.1.0",
+    "author": {
+        "name": "Marc C. Henri"
     },
     "require-dev": {
         "symfony/yaml": "^3.4|^4.0|^5.0",
         "symfony/config": "^4.3",
         "symfony/expression-language": "^3.4|^4.0|^5.0"
-    },
-    "suggest": {
-        "symfony/yaml": "",
-        "symfony/config": "",
-        "symfony/finder": "For using double-star glob patterns or when GLOB_BRACE portability is required",
-        "symfony/expression-language": "For using expressions in service container configuration",
-        "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them"
     },
     "conflict": {
         "symfony/config": "<4.3|>=5.0",
@@ -48,10 +27,5 @@
             "/Tests/"
         ]
     },
-    "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.4-dev"
-        }
-    }
+    "minimum-stability": "dev"
 }
